@@ -1,4 +1,9 @@
 module.exports = {
+  purge: [
+    './pages/**/*.js',
+    './components/**/*.js',
+    './components/**/*.jsx',
+  ],
   theme: {
     extend: {
       spacing: {
